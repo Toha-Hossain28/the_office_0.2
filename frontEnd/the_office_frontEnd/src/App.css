@@ -1,0 +1,16 @@
+.footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around content */
+    text-align: center; /* Center align text */
+    position: fixed; /* Fix the footer to the bottom of the viewport */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+}
+
+/* Optionally, style links in the footer */
+.footer a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
