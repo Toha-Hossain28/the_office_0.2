@@ -12,7 +12,7 @@ import java.util.List;
 @CrossOrigin("*")
 @AllArgsConstructor
 @RestController
-@RequestMapping("/api/fullstack")
+@RequestMapping("/api/fullstacks")
 public class FullStackController {
     private FullStackService fullStackService;
 

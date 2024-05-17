@@ -12,7 +12,7 @@ import java.util.List;
 @CrossOrigin("*")
 @AllArgsConstructor
 @RestController
-@RequestMapping("/api/frontend")
+@RequestMapping("/api/frontends")
 public class FrontEndController {
     private FrontEndService frontEndService;
 
