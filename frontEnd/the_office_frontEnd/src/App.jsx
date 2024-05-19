@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import HelloWorld from './hello'
+import LoginForm from './components/login'
 
 import ListEmployeeComponent from './components/EmployeeComponent'
 import ListDevOpsComponent from './components/DevOpsComponent'
@@ -37,6 +38,10 @@ function App() {
 
       
         <Routes>
+
+          <Route path="/login" element={<LoginForm />} />
+
+
           <Route path="/employee" element={<ListEmployeeComponent />} />
           <Route path="/employee/add" element={<AddEmployee />} />
           <Route path="/employee/update/:id" element={<AddEmployee />} />
